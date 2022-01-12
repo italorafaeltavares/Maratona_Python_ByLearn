@@ -7,7 +7,8 @@ altura = 1.75
 seuPeso    = float(input("Digite o seu peso: "))
 suaAltura  = float(input("Digite a sua altura: "))
 imc =  seuPeso / (suaAltura ** 2)
-print(f"Meu IMC é: {imc}")
+# :.2f Definie casas descimais neste exmplo 2
+print(f"Meu IMC é: {imc:.2f}")
 
 
 

@@ -17,7 +17,7 @@ Escopo Pai
 > Output
 ````
 print("Hello World")
-print(f"Meu IMC é: {imc}")
+print(f"Meu IMC é: {imc:.2f}")
 ````
 > Input
 ````
