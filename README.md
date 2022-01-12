@@ -1,4 +1,4 @@
-#  **PYTHON**
+##  <img align="center" alt="Python" height="30" width="40" src="https://www.vectorlogo.zone/logos/python/python-icon.svg"/> *PYTHON*
 
 > Identação
 ```
