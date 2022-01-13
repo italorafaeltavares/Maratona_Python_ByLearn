@@ -1,10 +1,3 @@
-# if(se) | Elif(senão se) | Else(senão)
-#if == 'Rafael':
-#if >= 23:
-
-
-
-
 horario = 'dia'
 
 if horario == 'dia':
@@ -22,22 +15,27 @@ temperatura = 21
 if temperatura <= 30:
     print("Hoje não está tão quente")
 else :
-    print("Hoje está quente")    
+    print("Hoje está quente") 
 
 
-number = 8
+# Para utlilizar o brinquedo deve possuir:
+# Idade  >= 15 e altura >= 160 cm
 
-if number == 1 or number == 3 or number == 5:
-    print('Não permitido')
-elif number == 2 or number == 4:
-    print('Permitido')
-else:
-    print('Erro')    
-        
+idade = float(input('Informe sua idade: '))
+altura = float(input('Informe sua Altura em cm: '))
 
-# Laços de repetição
-for numero in range(1,11):
-    print(numero)
+if idade >= 15 and altura >= 160:
+    print('Permitido usar o brinquedo') 
+elif idade < 15 and altura < 160:
+        print('Idade e altura não permitida')     
+elif idade < 15:
+        print('Idade não permitida')
+elif altura < 160:
+        print('Altura não permitida')
+
+    
+
+
 
 
 
