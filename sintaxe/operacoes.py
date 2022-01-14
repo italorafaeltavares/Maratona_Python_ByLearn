@@ -18,9 +18,9 @@ print(resto_da_divisao)
 print(divisao_inteira)
 
 # Calculadora soma  básica 
-primeiroValor = float(input("Digite o primeiro número: "))
-segundoValor  = float(input("Digite o segundo número: "))
-soma = primeiroValor + segundoValor
+primeiro_valor = float(input("Digite o primeiro número: "))
+segundo_valor  = float(input("Digite o segundo número: "))
+soma = primeiro_valor + segundo_valor
 print("O resultado da soma é", soma)
 
 # Exemplo

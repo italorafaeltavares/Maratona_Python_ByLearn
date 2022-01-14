@@ -1,19 +1,19 @@
 # Dados sequenciais
 # List
 games = ["God of War", "Mario Bros", "Donkey Kong", "Mortal kombat"]
-gameSnes = games[1]
+game_snes = games[1]
 
-print(gameSnes)
+print(game_snes)
 print("Melhor jogo da Playstation é ", games[0])
 
 # Sublist
-categoryGames = [["God of War", "Mortal kombat"], ["Mario Bros", "Donkey Kong"]]
+category_games = [["God of War", "Mortal kombat"], ["Mario Bros", "Donkey Kong"]]
 
-gameSony = categoryGames[0]
-gameSonyFigth = gameSony[1]
+game_sony = category_games[0]
+game_sony_figth = game_sony[1]
 
-print(gameSony)
-print(gameSonyFigth)
+print(game_sony)
+print(game_sony_figth)
 
 
 # Dados diferentes: tudoJuntoMisturado = ['Test', 3, 10.25, True]
@@ -21,8 +21,8 @@ print(gameSonyFigth)
 name = 'Italo'
 age = 33
 height = 1.75
-hobbyGames = True
+hobby_games = True
 
-myList = [name, age, height, hobbyGames]
-print(f"Eu me chamo {myList[0]} e tenho {myList[1]} anos de idade")
+my_list = [name, age, height, hobby_games]
+print(f"Eu me chamo {my_list[0]} e tenho {my_list[1]} anos de idade")
 
