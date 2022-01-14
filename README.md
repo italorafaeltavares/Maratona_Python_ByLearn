@@ -27,7 +27,7 @@ input("Digite o dado: ")
 seuDado = float(input("Digite o dado: "))
 ````
 > Condicionais: 
-## if (se) | elif (senão se) | else (senão)
+### if (se) | elif (senão se) | else (senão)
 ```` 
 if == 'Rafael':
 if >= 23:
