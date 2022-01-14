@@ -1,6 +1,6 @@
 ##  <img align="center" alt="Python" height="30" width="40" src="https://www.vectorlogo.zone/logos/python/python-icon.svg"/> *PYTHON*
 
-Aprendendo Python com a ByLearn 
+Aprendendo Python  (Maratona Python Faixa Preta) com a ByLearn
 
 
 
@@ -53,9 +53,11 @@ else :
 * "OU" => or (isso ou aquilo)
 
 > Laços de Repetição
-* for
 
 Forma de evitar repetição de código permitindo executar o mesmo código várias e várias vezes.
+
+* for
+
 ### Sintaxe
 ````
 for variavel in intervalo/sequencia:
@@ -64,7 +66,15 @@ for numero in range(10):
   print(numero)
 ````
 
+* while : Conjunto de instruções será executado enquanto uma condição é atendida
 
+### Sintaxe
+````
+contador = 0
+while (contador < 5):
+       print(contador)
+       contador   = contador + 1
+````
 
 
 
