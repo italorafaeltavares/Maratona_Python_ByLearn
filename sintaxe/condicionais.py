@@ -1,3 +1,4 @@
+# Verificar  estado do dia
 horario = 'dia'
 
 if horario == 'dia':
@@ -9,7 +10,7 @@ elif horario == 'noite':
 else:
     print("Está de madrugada")    
 
-
+#Temperatura
 temperatura = 21
 
 if temperatura <= 30:
@@ -33,8 +34,16 @@ elif idade < 15:
 elif altura < 160:
         print('Altura não permitida')
 
-    
+# Aceita números de 5 a 10    
+numero = int(input('Digite um úmero: '))
 
+if numero >= 5:
+    if numero <= 10:
+        print('Número', + numero, 'é aceito')
+    else:
+        print('Deve ser maior que 5 e menor que 10')        
+else:
+    print(f'Numero {numero} não aceito')        
 
 
 

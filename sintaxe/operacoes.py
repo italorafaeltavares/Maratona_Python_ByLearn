@@ -1,3 +1,4 @@
+# Operações 
 soma = 10 + 5 
 subtracao = 10 - 5
 multiplicacao = 10 * 5
@@ -21,3 +22,13 @@ primeiroValor = float(input("Digite o primeiro número: "))
 segundoValor  = float(input("Digite o segundo número: "))
 soma = primeiroValor + segundoValor
 print("O resultado da soma é", soma)
+
+# Exemplo
+aluno = 'Rafael Tavares'
+mensal = 9.0
+bimestral = 7.5
+soma = mensal + bimestral
+quantidade = 2
+media = soma / quantidade 
+
+print(f"O Aluno {aluno} Tem media {media}")
