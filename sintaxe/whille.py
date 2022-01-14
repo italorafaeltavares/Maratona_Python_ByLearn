@@ -1,3 +1,8 @@
+contador = 1
+while(contador <= 10):
+    print(contador)
+    contador = contador + 3
+
 # Enquanto não digitar Fulano, eu vou pedir o nome novamente
 nome = input("Digite seu nome: ") 
 

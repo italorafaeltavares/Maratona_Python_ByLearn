@@ -2,6 +2,9 @@
 for numero in range(1,11):
     print(numero)
 
+for contador in range(1,11,3):
+    print(contador)    
+
 for numero in range(1,11):
       if numero == 5:
     print("Obaaa! Número 5")
